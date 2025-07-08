@@ -6,21 +6,21 @@ https://github.com/metmuseum/openaccess
 Cleveland Museum of Art
 https://openaccess-api.clevelandart.org/
 
-Project summary: 
+Project summary: <br>
   Goal of the Project: 
-   Answer the question: Has the reception of artifacts at the MET changed over time in terms of their type, artist, culture, size and credit-line?
-  Design Choices: 
+   Answer the question: Has the reception of artifacts at the MET changed over time in terms of their type, artist, culture, size and credit-line? <br>
+  Design Choices: <br>
 
-  Division of group work: 
-    Cleaning the Data - Ben
-    Creating Classes: 
-      Artifact - Ben
-      Artist - Francesca
-      Collection - Moritz
-    Machine Learning: 
-     Image based - Ben
-     Text based - 
-    Visualizations: 
-      Metadata form CSV - 
-      ML results - 
-      RDF graphs - 
+  Division of group work: <br>
+    Cleaning the Data - Ben <br>
+    Creating Classes: <br>
+      Artifact - Ben <br>
+      Artist - Francesca <br>
+      Collection - Moritz <br>
+    Machine Learning:  <br>
+     Image based - Ben <br>
+     Text based -  <br>
+    Visualizations:  <br>
+      Metadata form CSV - <br>
+      ML results - <br>
+      RDF graphs - <br>
