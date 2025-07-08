@@ -8,7 +8,7 @@ https://openaccess-api.clevelandart.org/
 
 Project summary: 
   Goal of the Project: 
-    Prosses the Information about the Greek and Roman Art Department. 
+   Answer the question: Has the reception of artifacts at the MET changed over time in terms of their type, artist, culture, size and credit-line?
   Design Choices: 
 
   Division of group work: 
@@ -17,8 +17,8 @@ Project summary:
       Artifact - Ben
       Artist - Francesca
       Collection - Moritz
-   Machine Learning: 
-     Image based - 
+    Machine Learning: 
+     Image based - Ben
      Text based - 
     Visualizations: 
       Metadata form CSV - 
