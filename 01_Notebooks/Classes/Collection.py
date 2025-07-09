@@ -1,5 +1,5 @@
-from Artifact import Artifact
-from Artist import Artist
+from .Artifact import Artifact
+from .Artist import Artist
 
 
 class Collection:
