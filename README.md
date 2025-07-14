@@ -24,3 +24,6 @@ Project summary: <br>
       Metadata form CSV - <br>
       ML results - <br>
       RDF graphs - <br>
+
+
+Creating the Artist class: 
