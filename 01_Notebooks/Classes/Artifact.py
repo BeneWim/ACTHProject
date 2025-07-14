@@ -9,6 +9,14 @@ CHICAGO_URL = "https://api.artic.edu/api/v1/artworks/search"
 
 
 class Artifact:
+    """
+    A class representing a cultural artifact with associated metadata.
+
+    This class allows for initialization from tabular data (e.g., a DataFrame),
+    conversion to an RDF representation using CIDOC-CRM concepts, enrichment with Wikidata labels and descriptions,
+    and the discovery of similar artifacts from the Chicago and Cleveland Museum APIs.
+    """
+
     def __init__(
         self,
         department,
@@ -27,8 +35,26 @@ class Artifact:
         dimensions,
         cm_value,
     ):
-        # Attributes are up to you — choose fields from the MET dataset that will support your research goals.
-        # You should create subclasses of this for specific types of artifacts
+        """
+        Initialize an Artifact object with its associated metadata.
+
+        Args:
+            department (str): Department responsible for the artifact.
+            accessionYear (int or str): Year of accession, will be parsed into a year.
+            objectName (str): The name of the object.
+            title (str): The title of the artifact.
+            culture (str): Cultural attribution of the artifact.
+            period (str): Historical period.
+            medium (str): Material used.
+            classification (str): Classification (e.g., sculpture, painting).
+            creditLine (str): Acknowledgment of the artifact's donor or acquisition method.
+            objectWikidataURL (str): Wikidata entity URL of the artifact, if available.
+            tags (list): Tags describing the artifact.
+            tagsAATURL (list): URLs from the Art & Architecture Thesaurus.
+            tagsWikidataURL (str or list): Wikidata URLs of the tags.
+            dimensions (str): Dimensions of the artifact.
+            cm_value (float): Height or other metric in centimeters.
+        """
         self.department = department
         self.accessionYear = pd.Timestamp(accessionYear).year
         self.objectName = objectName
@@ -39,9 +65,9 @@ class Artifact:
         self.classification = classification
         self.creditLine = creditLine
         self.objectWikidataURL = objectWikidataURL
-        self.tags = eval(tags)
-        self.tagsAATURL = eval(tagsAATURL)
-        self.tagsWikidataURL = eval(tagsWikidataURL)
+        self.tags = eval(tags) if isinstance(tags, str) else []
+        self.tagsAATURL = eval(tagsAATURL) if isinstance(tagsAATURL, str) else []
+        self.tagsWikidataURL = eval(tagsWikidataURL) if isinstance(tagsWikidataURL, str) else []
         self.dimensions = dimensions
         self.cm_value = cm_value
 
@@ -49,6 +75,16 @@ class Artifact:
 
     @classmethod
     def from_dataframe(cls, df, index):
+        """
+        Instantiate an Artifact from a row in a pandas DataFrame.
+
+        Args:
+            df (pd.DataFrame): DataFrame containing artifact metadata.
+            index (int): Index of the row to convert.
+
+        Returns:
+            Artifact: An instance of the Artifact class.
+        """
         return cls(
             df.loc[index, "Department"],
             df.loc[index, "AccessionYear"],
@@ -68,7 +104,13 @@ class Artifact:
         )
 
     def to_rdf(self):
-        # returns an rdflib.Graph representation of the object (simplistic, does not need to have all the attributes represented in RDF)
+        """
+        Convert the Artifact into an RDF graph using CIDOC-CRM and Dublin Core vocabularies.
+
+        Returns:
+            rdflib.Graph: RDF graph representing the artifact and its metadata.
+        """
+
         CRM = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
         DC = Namespace("http://purl.org/dc/elements/1.1/")
         EX = Namespace("http://w3id.org/example/")
@@ -120,11 +162,19 @@ class Artifact:
         return g
 
     def print_rdf(self):
+        """
+        Print the RDF serialization of the artifact in Turtle format.
+        """
         graph = self.to_rdf()
 
         print(graph.serialize(format="turtle"))
 
     def wikidata_enrich(self):
+        """
+        Enrich tag information using SPARQL queries to Wikidata.
+
+        Appends English descriptions of tag entities to the `enriched_tags` list.
+        """
         if not isinstance(self.tagsWikidataURL, list):
             print("tagsWikidataURL is not a list, skipping enrichment.")
             return
@@ -154,8 +204,18 @@ class Artifact:
                 print(f"Error querying {qid}: {e}")
 
     def similar_artworks(self, limit: int = 5):
-        # queries both Chicago API or Cleveland Museum API to look for similar artworks
-        # (maybe they share the creator, place of creation, date of creation – up to you)
+        """
+        Find similar artworks from external museum collections.
+
+        Combines results from the Chicago Art Institute and Cleveland Museum collections
+        based on shared cultural classification.
+
+        Args:
+            limit (int): Maximum number of results to retrieve from each collection.
+
+        Returns:
+            list: A list of dictionaries containing metadata for similar artworks.
+        """
 
         if not self.classification:
             print("No classification available for this artifact.")
@@ -171,9 +231,15 @@ class Artifact:
         return results
 
     def similiar_artworks_chicago(self, limit):
-        # This uses full text search, which can be quiet broad,
-        # because Chicago does not have a culture attribute
+        """
+        Search for similar artworks in the Chicago Art Institute collection using full-text search.
 
+        Args:
+            limit (int): Number of results to return.
+
+        Returns:
+            list: List of similar artworks with basic metadata from Chicago.
+        """
         results = []
 
         chicago_params = {
@@ -200,6 +266,15 @@ class Artifact:
         return results
 
     def similiar_artworks_cleveland(self, limit):
+        """
+        Search for similar artworks in the Cleveland Museum collection based on culture.
+
+        Args:
+            limit (int): Number of results to return.
+
+        Returns:
+            list: List of similar artworks with basic metadata from Cleveland.
+        """
         params = {"culture": self.culture, "limit": limit}
 
         try:
