@@ -1,0 +1,1 @@
+collection.ttl     # RDF Turtle file containing a collection with at least 50 artifacts/artists
