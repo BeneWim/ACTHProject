@@ -34,6 +34,7 @@ class Artifact:
         tagsWikidataURL,
         dimensions,
         cm_value,
+        author_name=None,
     ):
         """
         Initialize an Artifact object with its associated metadata.
@@ -67,9 +68,12 @@ class Artifact:
         self.objectWikidataURL = objectWikidataURL
         self.tags = eval(tags) if isinstance(tags, str) else []
         self.tagsAATURL = eval(tagsAATURL) if isinstance(tagsAATURL, str) else []
-        self.tagsWikidataURL = eval(tagsWikidataURL) if isinstance(tagsWikidataURL, str) else []
+        self.tagsWikidataURL = (
+            eval(tagsWikidataURL) if isinstance(tagsWikidataURL, str) else []
+        )
         self.dimensions = dimensions
         self.cm_value = cm_value
+        self.author_name = eval(author_name)[0] if isinstance(author_name, str) else "Unknown"
 
         self.enriched_tags = []
 
@@ -101,6 +105,7 @@ class Artifact:
             df.loc[index, "Tags Wikidata URL"],
             df.loc[index, "Dimensions"],
             df.loc[index, "cm_value"],
+            df.loc[index, "Artist Display Name"],
         )
 
     def to_rdf(self):
@@ -287,7 +292,7 @@ class Artifact:
             for result in data.get("data", []):
                 similar.append(
                     {
-                        "id": result.get("id"),
+                        "source": "Cleveland",
                         "title": result.get("title"),
                         "date": result.get("creation_date", "Unknown"),
                         "url": result.get("url"),
