@@ -2,8 +2,8 @@ from rdflib import Graph, Literal
 from rdflib.namespace import RDF, RDFS, URIRef
 from rdflib import Namespace
 import pandas as pd
-from SPARQLWrapper import SPARQLWrapper, JSON
-
+from SPARQLWrapper import SPARQLWrapper, JSON 
+from .utils import visualize_rdf_graph
 
 class Artist:
     def __init__(
@@ -50,9 +50,7 @@ class Artist:
             self.wikidata_uri
         )  # creates a artist_uri out of the wikidata_uri
 
-        g.add(
-            (artist_uri, RDF.type, CRM["E20_Person"])
-        )  # adds triples using the ontologies
+        g.add((artist_uri, RDF.type, CRM["E21_Person"])) #adds triples using the ontologies 
         g.add((artist_uri, FOAF.name, Literal(self.display_name)))
         g.add((artist_uri, Schema.nationality, Literal(self.nationality)))
 
@@ -99,6 +97,7 @@ class Artist:
                 self.date_of_birth = date_of_birth
 
         except Exception as e:
-            print(
-                f"Error querying {qid}: {e}"
-            )  # prints a error if the query doesn't work
+            print(f"Error querying {qid}: {e}") #prints a error if the query doesn't work
+
+    def visualize_graph(self): #visualizes the rdf graph for artist 
+        visualize_rdf_graph(self.to_rdf())
