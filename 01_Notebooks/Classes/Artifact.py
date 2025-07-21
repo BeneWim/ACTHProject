@@ -73,7 +73,9 @@ class Artifact:
         )
         self.dimensions = dimensions
         self.cm_value = cm_value
-        self.author_name = eval(author_name)[0] if isinstance(author_name, str) else "Unknown"
+        self.author_name = (
+            eval(author_name)[0] if isinstance(author_name, str) else "Unknown"
+        )
 
         self.enriched_tags = []
 
@@ -127,7 +129,11 @@ class Artifact:
         g.bind("ex", EX)
         g.bind("w3", W3)
 
-        if self.objectWikidataURL is None:
+        if (
+            self.objectWikidataURL is None
+            or pd.isna(self.objectWikidataURL)
+            or self.objectWikidataURL == "nan"
+        ):
             self.objectWikidataURL = (
                 f"http://w3id.org/example/artifact/{self.title.replace(' ', '_')}"
             )
