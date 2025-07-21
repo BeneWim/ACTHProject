@@ -11,6 +11,7 @@ class ArtifactGreek(Artifact):
     Inherits:
         Artifact: The base artifact class with metadata, RDF export, and enrichment functionality.
     """
+
     def __init__(
         self,
         department,
@@ -73,7 +74,7 @@ class ArtifactGreek(Artifact):
             cm_value,
         )
 
-        assert "greek" in self.culture.lower(), "Artifact is not Greek."
+        assert "greek" in self.culture, "Artifact is not Greek."
 
         self.tags.append("Ancient Greece")
         self.tagsWikidataURL.append("https://www.wikidata.org/wiki/Q11772")
