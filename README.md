@@ -33,20 +33,20 @@ Implemented methods in classes:
 - wikidata_enrich: In the Artifact class, we queried Wikidata to add human-readable descriptions, making qualitative analysis possible. In Artist, we added the date_of_birth since this information was missing in the MET dataframe.
 - similar_artworks: This method searches for artifacts from the same culture in the Cleveland and Chicago datasets, as we aimed to focus on artworks from Roman and Greek cultures.
 
-Machine Learning techniques: 
+Machine Learning Techniques:
 To answer our research question on how the acquisition of artifacts at the MET has changed over time, we used both image-based and text-based machine learning approaches to enhance our analysis.
 
-Image-based ML:
-We extract all the images having a roman tag from the AIC API. We than cluster these images in order to find different clusters of objects. This is supposed to further enhance our analysis of this period, because we now have a knowledge of certain clusters of artifacts and can than use these results to see if some clusters were collected earlier or later. This can help us analyse if certain visual styles or object types were collected during different periods.
+Image-Based ML:
+We extracted all images tagged as Roman from the AIC API. We then clustered these images to identify different groups of objects. This allows us to deepen our analysis of this period, as we now have knowledge of specific clusters of artifacts. We can use these results to examine whether certain clusters were collected earlier or later, helping us analyze whether specific visual styles or object types were acquired during different time periods.
 
-Text-based ML:
-Since not every object from the ancient roman and greek period might be in the Depart for Roman And Greek Art, we use clustering on the Culture column to see, if we can identify a cluster correlating to this period. This could than be used to identify all objects belonging to this culture and period without having to rely on the department assosiation. 
+Text-Based ML:
+Since not every object from the ancient Roman and Greek periods is necessarily listed in the Department of Greek and Roman Art, we applied clustering to the Culture column to see whether we could identify a cluster corresponding to this period. This can help us identify all objects belonging to this culture and time period without relying solely on departmental classification.
 
-We wanted to expand this analysis using the data from other museums as well, but since not all of them have the same columns, we had to rely on the title column, as this is a consistent field across all datasources. We used this field to see if naming conventions and collected artworks are different between museums by clustering the titles and comparing if some clusters only appear in certain museums. However we only used a limited dataset from each museum and this analysis therefore is probably highly biased by the reduced dataset. 
+We aimed to expand this analysis using data from other museums as well. However, since not all institutions use the same metadata schema, we had to rely on the title column, which is a consistent field across all data sources. We used this field to explore whether naming conventions and collected artworks differ between museums by clustering titles and checking whether certain clusters appear only in specific institutions. Due to alimited datasets usage  from each museum, however, this analysis is likely biased and should be interpreted with caution.
 
-Visualizations: 
+Visualizations:
 Metadata Visualizations:
-To answear our initial research question we created several meta-analysis visualizations to explore how collecting practices have changed over time. For this we usually used the time when an artifact entered the museum as a core metric for analysis.
+To answer our initial research question, we created several meta-analytical visualizations to explore how collecting practices have changed over time. For this purpose, we typically used the year an artifact entered the museum as a core metric for analysis.
 
 RDF Graphs
 UML Diagram: Shows the relationships and connections between our classes, as well as the attributes and methods used in each.
