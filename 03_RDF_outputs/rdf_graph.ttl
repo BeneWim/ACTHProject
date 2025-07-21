@@ -1,0 +1,660 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://schema.org/> .
+@prefix ns2: <https://w3id.org/i40/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://w3id.org/example/artist/Bolsena_Group> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116296529> ;
+    foaf:name "Bolsena Group" .
+
+<http://w3id.org/example/artist/Centaur_Painter> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Terracotta_kylix:_lip-cup_(drinking_cup)> ;
+    foaf:name "Centaur Painter" .
+
+<http://w3id.org/example/artist/Class_of_New_York_96.9.9> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116296682> ;
+    foaf:name "Class of New York 96.9.9" .
+
+<http://w3id.org/example/artist/Class_of_the_Oxford_Siren-Jug> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Oinochoe> ;
+    foaf:name "Class of the Oxford Siren-Jug" .
+
+<http://w3id.org/example/artist/Frontinus> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116295153>,
+        <https://www.wikidata.org/wiki/Q116295316> ;
+    foaf:name "Frontinus" .
+
+<http://w3id.org/example/artist/Group_of_Como_C_62:_Limoges_Sub_Group> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Pelike> ;
+    foaf:name "Group of Como C 62: Limoges Sub Group" .
+
+<http://w3id.org/example/artist/Group_of_London_E_614> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Lekythos> ;
+    foaf:name "Group of London E 614" .
+
+<http://w3id.org/example/artist/Group_of_Vatican_G.116> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116290098> ;
+    foaf:name "Group of Vatican G.116" .
+
+<http://w3id.org/example/artist/Group_of_Vienna_O.565> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116296526> ;
+    foaf:name "Group of Vienna O.565" .
+
+<http://w3id.org/example/artist/Group_of_Zurich_2661> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Pelike> ;
+    foaf:name "Group of Zurich 2661" .
+
+<http://w3id.org/example/artist/Group_with_Horizontal_Ivy_Leaves> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116290034> ;
+    foaf:name "Group with Horizontal Ivy Leaves" .
+
+<http://w3id.org/example/artist/Göttingen_Painter> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116290040> ;
+    foaf:name "Göttingen Painter" .
+
+<http://w3id.org/example/artist/Kerameikos_Group> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116288789> ;
+    foaf:name "Kerameikos Group" .
+
+<http://w3id.org/example/artist/Painter_of_Cambridge_3.17> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Lekythos> ;
+    foaf:name "Painter of Cambridge 3.17" .
+
+<http://w3id.org/example/artist/Painter_of_Louvre_G_456> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116296525> ;
+    foaf:name "Painter of Louvre G 456" .
+
+<http://w3id.org/example/artist/Painter_of_New_York_GR_576> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116296533> ;
+    foaf:name "Painter of New York GR 576" .
+
+<http://w3id.org/example/artist/Parrish_Painter> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116290063> ;
+    foaf:name "Parrish Painter" .
+
+<http://w3id.org/example/artist/Perth_Group> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Hydria> ;
+    foaf:name "Perth Group" .
+
+<http://w3id.org/example/artist/Phantom_Group> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Oinochoe> ;
+    foaf:name "Phantom Group" .
+
+<http://w3id.org/example/artist/Potnia_Painter> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116288792> ;
+    foaf:name "Potnia Painter" .
+
+<http://w3id.org/example/artist/Speratus> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116296531> ;
+    foaf:name "Speratus" .
+
+<http://w3id.org/example/artist/Torcop_Group> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116289922> ;
+    foaf:name "Torcop Group" .
+
+<http://w3id.org/example/artist/Xenon_Group> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116296677>,
+        <https://www.wikidata.org/wiki/Q116296679> ;
+    foaf:name "Xenon Group" .
+
+<https://www.wikidata.org/wiki/Q112299587> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116290099> ;
+    foaf:name "Fluid Group" .
+
+<https://www.wikidata.org/wiki/Q1280275> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116402235> ;
+    foaf:name "Pan Painter" .
+
+<https://www.wikidata.org/wiki/Q1285536> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Terracotta_lekythos_(oil_flask)> ;
+    foaf:name "Marathon Painter" .
+
+<https://www.wikidata.org/wiki/Q1321820> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116290054> ;
+    foaf:name "Haimon Painter" .
+
+<https://www.wikidata.org/wiki/Q1325382> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116289255>,
+        <https://www.wikidata.org/wiki/Q116295340> ;
+    foaf:name "Elbows Out" .
+
+<https://www.wikidata.org/wiki/Q1333886> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116288857> ;
+    foaf:name "Meidias Painter" .
+
+<https://www.wikidata.org/wiki/Q1451589> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116402232>,
+        <https://www.wikidata.org/wiki/Q116402233> ;
+    foaf:name "Washing Painter" .
+
+<https://www.wikidata.org/wiki/Q16145891> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116289909> ;
+    foaf:name "Amykos Painter" .
+
+<https://www.wikidata.org/wiki/Q18704770> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116289461>,
+        <https://www.wikidata.org/wiki/Q116296502>,
+        <https://www.wikidata.org/wiki/Q18708810> ;
+    foaf:name "Cesnola Painter" .
+
+<https://www.wikidata.org/wiki/Q19959687> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Alabastron> ;
+    foaf:name "Group of the Paidikos Alabastra" .
+
+<https://www.wikidata.org/wiki/Q2085171> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116288866> ;
+    foaf:name "Pharos Painter" .
+
+<https://www.wikidata.org/wiki/Q2108056> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116296527> ;
+    foaf:name "Praxias Group" .
+
+<https://www.wikidata.org/wiki/Q21282418> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Lekythos> ;
+    foaf:name "Quadrate Painter" .
+
+<https://www.wikidata.org/wiki/Q436826> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116297419> ;
+    foaf:name "Altenburg Painter" .
+
+<https://www.wikidata.org/wiki/Q46145313> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q46145028> ;
+    foaf:name "Somzée Painter" .
+
+<https://www.wikidata.org/wiki/Q52481951> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116290093> ;
+    foaf:name "CA Painter" .
+
+<https://www.wikidata.org/wiki/Q577906> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <https://www.wikidata.org/wiki/Q116402272> ;
+    foaf:name "Antimenes Painter" .
+
+<https://www.wikidata.org/wiki/Q65659161> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Lekythos> ;
+    foaf:name "Tymbos Painter" .
+
+<https://www.wikidata.org/wiki/Q965272> a crm:E21_Person ;
+    ns1:nationality "NaN"^^xsd:double ;
+    crm:P94_has_created <http://w3id.org/example/artifact/Calyx-krater> ;
+    foaf:name "Douris" .
+
+<http://w3id.org/example/artifact/Alabastron> a crm:E22_Man-Made_Object ;
+    dc:title "Alabastron" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Alabastron" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1891"^^xsd:gYear .
+
+<http://w3id.org/example/artifact/Calyx-krater> a crm:E22_Man-Made_Object ;
+    dc:title "Calyx-krater" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Calyx-krater" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1891"^^xsd:gYear .
+
+<http://w3id.org/example/artifact/Hydria> a crm:E22_Man-Made_Object ;
+    dc:title "Hydria" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Hydria",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1876"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q467> .
+
+<http://w3id.org/example/artifact/Terracotta_kylix:_lip-cup_(drinking_cup)> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta kylix: lip-cup (drinking cup)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Kylix, lip-cup",
+        "Men" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1874"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q8441> .
+
+<http://w3id.org/example/artifact/Terracotta_lekythos_(oil_flask)> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta lekythos (oil flask)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Dionysus",
+        "Lekythos",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1875"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q41680>,
+        <https://www.wikidata.org/wiki/Q467> .
+
+<https://www.wikidata.org/wiki/Q116288789> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta alabastron (perfume vase)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Alabastron",
+        "Birds",
+        "Boars" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1876"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q5113>,
+        <https://www.wikidata.org/wiki/Q58697> .
+
+<https://www.wikidata.org/wiki/Q116288792> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta alabastron (perfume vase)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Alabastron",
+        "Animals",
+        "Swans" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1876"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q34384>,
+        <https://www.wikidata.org/wiki/Q729> .
+
+<https://www.wikidata.org/wiki/Q116288857> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta oinochoe: chous (jug)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Oinochoe, chous",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1875"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q467> .
+
+<https://www.wikidata.org/wiki/Q116288866> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta lekythos (oil flask)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Lekythos",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1875"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q467> .
+
+<https://www.wikidata.org/wiki/Q116289255> a crm:E22_Man-Made_Object ;
+    dc:title "Fragment of a kylix: band-cup (drinking cup)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Human Figures",
+        "Kylix, band-cup fragment" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1874"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q5937779> .
+
+<https://www.wikidata.org/wiki/Q116289461> a crm:E22_Man-Made_Object ;
+    dc:title "Fragment of a terracotta oinochoe (jug)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Birds",
+        "Horses",
+        "Oinochoe, fragment" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1874"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q5113>,
+        <https://www.wikidata.org/wiki/Q726> .
+
+<https://www.wikidata.org/wiki/Q116289909> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta hydria (water jar)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Hydria",
+        "Male Nudes",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1891"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q40446>,
+        <https://www.wikidata.org/wiki/Q467> .
+
+<https://www.wikidata.org/wiki/Q116289922> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta oinochoe (jug)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Oinochoe",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1891"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q467> .
+
+<https://www.wikidata.org/wiki/Q116290034> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta amphora (jar)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Amphora" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1890"^^xsd:gYear .
+
+<https://www.wikidata.org/wiki/Q116290040> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta column-krater (bowl for mixing wine and water)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Animals",
+        "Column-krater",
+        "Men",
+        "Shields" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1891"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q131559>,
+        <https://www.wikidata.org/wiki/Q729>,
+        <https://www.wikidata.org/wiki/Q8441> .
+
+<https://www.wikidata.org/wiki/Q116290054> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta skyphos (deep drinking cup)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Satyrs",
+        "Skyphos" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1891"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q163709> .
+
+<https://www.wikidata.org/wiki/Q116290063> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta neck-amphora (jar)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Dogs",
+        "Male Nudes",
+        "Neck-amphora",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1891"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q144>,
+        <https://www.wikidata.org/wiki/Q40446>,
+        <https://www.wikidata.org/wiki/Q467> .
+
+<https://www.wikidata.org/wiki/Q116290093> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta skyphos (deep drinking cup)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Men",
+        "Shields",
+        "Skyphos",
+        "Warriors",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1891"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q1250916>,
+        <https://www.wikidata.org/wiki/Q131559>,
+        <https://www.wikidata.org/wiki/Q467>,
+        <https://www.wikidata.org/wiki/Q8441> .
+
+<https://www.wikidata.org/wiki/Q116290098> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta kantharos (drinking cup)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Kantharos" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1891"^^xsd:gYear .
+
+<https://www.wikidata.org/wiki/Q116290099> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta stamnos" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Stamnos",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1891"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q467> .
+
+<https://www.wikidata.org/wiki/Q116295153> a crm:E22_Man-Made_Object ;
+    dc:title "Glass barrel jug" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Jug" ;
+    crm:P45_consists_of "Glass" ;
+    crm:P4_has_time_span "1881"^^xsd:gYear .
+
+<https://www.wikidata.org/wiki/Q116295316> a crm:E22_Man-Made_Object ;
+    dc:title "Cylindrical glass bottle" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Frontinus bottle" ;
+    crm:P45_consists_of "Glass" ;
+    crm:P4_has_time_span "1881"^^xsd:gYear .
+
+<https://www.wikidata.org/wiki/Q116295340> a crm:E22_Man-Made_Object ;
+    dc:title "Fragment of a kylix: band-cup (drinking cup)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Human Figures",
+        "Kylix, band-cup fragment" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1874"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q5937779> .
+
+<https://www.wikidata.org/wiki/Q116296502> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta oinochoe (jug)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Horses",
+        "Oinochoe" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1874"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q726> .
+
+<https://www.wikidata.org/wiki/Q116296525> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta kylix (drinking cup)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Kylix",
+        "Lyres",
+        "Men" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1896"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q201129>,
+        <https://www.wikidata.org/wiki/Q8441> .
+
+<https://www.wikidata.org/wiki/Q116296526> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta oinochoe (jug)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Oinochoe" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1896"^^xsd:gYear .
+
+<https://www.wikidata.org/wiki/Q116296527> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta column-krater (bowl for mixing wine and water)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Column-krater",
+        "Men" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1896"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q8441> .
+
+<https://www.wikidata.org/wiki/Q116296529> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta volute-krater (bowl for mixing wine and water)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Volute-krater" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1896"^^xsd:gYear .
+
+<https://www.wikidata.org/wiki/Q116296531> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta plate" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Plate" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1896"^^xsd:gYear .
+
+<https://www.wikidata.org/wiki/Q116296533> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta kylix (drinking cup)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Boys",
+        "Kylix",
+        "Men" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1896"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q3010>,
+        <https://www.wikidata.org/wiki/Q8441> .
+
+<https://www.wikidata.org/wiki/Q116296677> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta lid of the lebes gamikos 96.9.20 (jar associated with weddings)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Lebes gamikos lid" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1896"^^xsd:gYear .
+
+<https://www.wikidata.org/wiki/Q116296679> a crm:E22_Man-Made_Object ;
+    dc:title "Lebes gamikos (jar associated with weddings)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Lebes gamikos" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1896"^^xsd:gYear .
+
+<https://www.wikidata.org/wiki/Q116296682> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta neck-amphora (jar)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Ariadne",
+        "Dionysus",
+        "Horses",
+        "Maenads",
+        "Neck-amphora",
+        "Satyrs" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1896"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q163709>,
+        <https://www.wikidata.org/wiki/Q184874>,
+        <https://www.wikidata.org/wiki/Q209599>,
+        <https://www.wikidata.org/wiki/Q41680>,
+        <https://www.wikidata.org/wiki/Q726> .
+
+<https://www.wikidata.org/wiki/Q116297419> a crm:E22_Man-Made_Object ;
+    dc:title "Fragment of a terracotta oinochoe (jug)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Birds",
+        "Deer",
+        "Griffins",
+        "Lions",
+        "Oinochoe, fragmentary",
+        "Sphinx" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1874"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q130223>,
+        <https://www.wikidata.org/wiki/Q140>,
+        <https://www.wikidata.org/wiki/Q151480>,
+        <https://www.wikidata.org/wiki/Q5113>,
+        <https://www.wikidata.org/wiki/Q685795> .
+
+<https://www.wikidata.org/wiki/Q116402232> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta squat lekythos (oil flask)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Birds",
+        "Eros",
+        "Squat lekythos",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1875"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q121973>,
+        <https://www.wikidata.org/wiki/Q467>,
+        <https://www.wikidata.org/wiki/Q5113> .
+
+<https://www.wikidata.org/wiki/Q116402233> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta squat lekythos (oil flask)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Men",
+        "Squat lekythos",
+        "Women",
+        "Wreaths" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1875"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q1201922>,
+        <https://www.wikidata.org/wiki/Q467>,
+        <https://www.wikidata.org/wiki/Q8441> .
+
+<https://www.wikidata.org/wiki/Q116402235> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta skyphos (deep drinking cup)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Minotaurs",
+        "Skyphos",
+        "Theseus" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1876"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q129866>,
+        <https://www.wikidata.org/wiki/Q1320718> .
+
+<https://www.wikidata.org/wiki/Q116402272> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta neck-amphora (jar)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Neck-amphora" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1896"^^xsd:gYear .
+
+<https://www.wikidata.org/wiki/Q18708810> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta krater with lid surmounted by a small hydria" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Axes",
+        "Birds",
+        "Deer",
+        "Horses",
+        "Krater, four-handled with lid" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1874"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q39397>,
+        <https://www.wikidata.org/wiki/Q5113>,
+        <https://www.wikidata.org/wiki/Q685795>,
+        <https://www.wikidata.org/wiki/Q726> .
+
+<https://www.wikidata.org/wiki/Q46145028> a crm:E22_Man-Made_Object ;
+    dc:title "Terracotta pelike (jar)" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Male Nudes",
+        "Men",
+        "Pelike",
+        "Satyrs",
+        "Wine",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1875"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q163709>,
+        <https://www.wikidata.org/wiki/Q282>,
+        <https://www.wikidata.org/wiki/Q40446>,
+        <https://www.wikidata.org/wiki/Q467>,
+        <https://www.wikidata.org/wiki/Q8441> .
+
+<http://w3id.org/example/artifact/Oinochoe> a crm:E22_Man-Made_Object ;
+    dc:title "Oinochoe" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Maenads",
+        "Oinochoe",
+        "Satyrs" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1875"^^xsd:gYear,
+        "1891"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q163709>,
+        <https://www.wikidata.org/wiki/Q209599> .
+
+<http://w3id.org/example/artifact/Pelike> a crm:E22_Man-Made_Object ;
+    dc:title "Pelike" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Pelike",
+        "Profiles",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1876"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q4382010>,
+        <https://www.wikidata.org/wiki/Q467> .
+
+<http://w3id.org/example/artifact/Lekythos> a crm:E22_Man-Made_Object ;
+    dc:title "Lekythos" ;
+    crm:P107i_is_current_or_former_member_of "Greek and Roman Art" ;
+    crm:P2_has_type "Lekythos",
+        "Women" ;
+    crm:P45_consists_of "Terracotta" ;
+    crm:P4_has_time_span "1875"^^xsd:gYear,
+        "1876"^^xsd:gYear ;
+    ns2:stohasWikidataEntity <https://www.wikidata.org/wiki/Q467> .
+
