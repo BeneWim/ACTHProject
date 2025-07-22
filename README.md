@@ -57,9 +57,9 @@ The RDF outputs were saved in the folder 03_RDF_outputs
 Shows the relationships and connections between our classes, as well as the attributes and methods used in each.
 
 ## Used Datasets
-Art institut of Chicago 
+- Art institut of Chicago 
 https://api.artic.edu/docs/#quick-start
-Metropolitan Museum New York
+- Metropolitan Museum New York
 https://github.com/metmuseum/openaccess
-Cleveland Museum of Art
+- Cleveland Museum of Art
 https://openaccess-api.clevelandart.org/
