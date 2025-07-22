@@ -1,4 +1,4 @@
-# importing external used un the different functions
+# importing external used in the different functions
 import pandas as pd
 import matplotlib.pyplot as plt
 import requests
