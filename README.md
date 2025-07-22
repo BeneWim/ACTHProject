@@ -3,7 +3,7 @@
 We want to answer the question: Has the acquisition of artifacts at the MET changed over time in terms of their type, artist, culture, size and credit-line? <br>
 
 ## Division of group work: <br>
-###Cleaning the Data: <br>
+### Cleaning the Data: <br>
 Ben <br>
 ### Creating Classes: <br>
   Artifact - Ben <br>
