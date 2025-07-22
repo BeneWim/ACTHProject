@@ -3,7 +3,7 @@
 We want to answer the question: Has the acquisition of artifacts at the MET changed over time in terms of their type, artist, culture, size and credit-line? <br>
 
 ## Division of group work: <br>
-###Cleaning the Data: 
+###Cleaning the Data: <br>
 Ben <br>
 ### Creating Classes: <br>
   Artifact - Ben <br>
@@ -50,7 +50,8 @@ We aimed to expand this analysis using data from other museums as well. However,
 To answer our initial research question, we created several meta-analytical visualizations to explore how collecting practices have changed over time. For this purpose, we typically used the year an artifact entered the museum as a core metric for analysis.
 
 ### RDF Graphs:
-
+Shows an RDF graph that using the function to_rdf of the Collection Class for an predeterminant range. The input files are selected entries of our data were the creator/painter is also known.
+The RDF outputs were saved in the folder 03_RDF_outputs
 
 ### UML Diagram: 
 Shows the relationships and connections between our classes, as well as the attributes and methods used in each.
