@@ -3,19 +3,19 @@
 We want to answer the question: Has the acquisition of artifacts at the MET changed over time in terms of their type, artist, culture, size and credit-line? <br>
 
 ## Division of group work: <br>
-    Cleaning the Data -     Ben <br>
-    Creating Classes: <br>
-      Artifact - Ben <br>
-      Artist - Francesca <br>
-      Collection - Moritz <br>
-    Machine Learning:  <br>
-     Image based - Ben <br>
-     Text based -  Ben <br>
-    Visualizations:  <br>
-      Metadata form CSV - Ben <br>
-      ML results - Ben <br>
-      RDF graphs - Moritz <br>
-      UML graph - Francesca <br>
+Cleaning the Data - Ben <br>
+Creating Classes: <br>
+  Artifact - Ben <br>
+  Artist - Francesca <br>
+  Collection - Moritz <br>
+Machine Learning:  <br>
+ Image based - Ben <br>
+ Text based -  Ben <br>
+Visualizations:  <br>
+  Metadata form CSV - Ben <br>
+  ML results - Ben <br>
+  RDF graphs - Moritz <br>
+  UML graph - Francesca <br>
 
 ## Reasoning
 We decided to only use the data in the dataframe that was categorized under the department of "Greek and Roman Art". Only those attributes were included that had values within this department (e.g., the department dataset had no specified "location" data).
